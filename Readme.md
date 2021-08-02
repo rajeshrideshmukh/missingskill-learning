@@ -1,6 +1,6 @@
 > _This is a documentation created by myself based on the #missingskill grind. All the videos were provided by [Samal Gorai](https://twitter.com/samalgorai?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor "Twitter Profile") . Following are the topics that were covered in the grind & are documented in this repository._
 
-# **Table of Contents**
+# 📌 **Table of Contents**
 
 1. [Linux](https://github.com/rajeshrideshmukh/missingskill-learning/blob/master/linux/linux.md "Go to Linux documentation")
 
@@ -8,15 +8,13 @@
    | Introduction
    | History
    | Why to Use?
-   | How to Use?
    | Linux Commands
-   | Linus File System
+   | Linux File System
    ```
 
 2. [Git](https://github.com/rajeshrideshmukh/missingskill-learning/blob/master/git/git.md "Go to Git documentation")
    ```
-   | Introduction
-   | History
+   | Introduction & History
    | Why to Use?
    | How to Use?
    | Git Commands
@@ -43,7 +41,7 @@
 4. [JavaScript](https://github.com/rajeshrideshmukh/missingskill-learning/blob/master/javascript/javascript.md "Go to JavaScript documentation")
    ```
    | Introduction
-   | Why to Use ?
+   | Why to Use?
    | Tech Debt
    | JavaScript Concepts
      - Operators
@@ -58,3 +56,7 @@
    | ES6
    ```
 5. Extra Skills
+
+---
+
+[⬆️ back on top](#table-of-contents)
