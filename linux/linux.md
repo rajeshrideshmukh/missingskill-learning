@@ -58,42 +58,47 @@ A shell is basically a program that receives commands from the user and gives it
 
 1.  **ls**
     -> To list all files and directories that are present in the current directory.
+
     ![ls](../resources/linux-output/ls-cmd.png)
 
     **ls command with flags** :
 
-    - ls -a : To show the hidden files
-    - ls -l : To show the list in more detail like access permission, size, ownwer, etc.
-    - ls -h : To show file size in human readable format.
-    - ls -t : To sort the list in ascending order of the modification time.
-    - ls -r :To show the list in reverse order.
+    - _ls -a_ : To show the hidden files
+    - _ls -l_ : To show the list in more detail like access permission, size, ownwer, etc.
+    - _ls -h_ : To show file size in human readable format.
+    - _ls -t_ : To sort the list in ascending order of the modification time.
+    - _ls -r_ : To show the list in reverse order.
 
       ![ls](../resources/linux-output/ls-alht.png)
+
+      > ❗ _files starting with '-rw-r' indicates a file_
+
+      > ❗ _files starting with 'drwxr' indicates a directory_
 
 2.  **cd**
     -> To jump from one directory to other.
 
     ![ls](../resources/linux-output/cd-cmd.png)
 
-    **cd command with flags** :
+    **cd command with other options** :
 
-    - cd - : To jump to previously visited directory.
+    - _cd -_ : To jump to previously visited directory.
 
       ![ls](../resources/linux-output/cd--cmd.png)
 
-    - cd .. : To jump one directory back
+    - _cd .._ : To jump one directory back
 
       ![ls](../resources/linux-output/cd..cmd.png)
 
-    - cd / cd ~ : To jump directly into home directory.
+    - _cd / cd ~_ : To jump directly into home directory.
 
       ![ls](../resources/linux-output/cd..cmd.png)
 
       ![ls](../resources/linux-output/cd~cmd.png)
 
-    - cd / : To jump directly into root directory.
+    - _cd /_ : To jump directly into root directory.
 
-    ![ls](../resources/linux-output/cd_cmd.png)
+      ![ls](../resources/linux-output/cd_cmd.png)
 
 3.  **pwd** -> To show the path of current working directory
 
@@ -103,16 +108,21 @@ A shell is basically a program that receives commands from the user and gives it
 
     ![ls](../resources/linux-output/touch-cmd.png)
 
-5.  **cat** -> To add, update or view content from a file.
-    **cat command with flags** :
+    > ❗ _touch .fileName creates hidden file_
 
-    - cat > [filename] : Add the content into the file.
+5.  **cat** -> To add, update or view content from a file.
+    **cat command with other options** :
+
+    - _cat > [filename]_ : Add the content into the file.
+
       ![ls](../resources/linux-output/cat1-cmd.png)
 
-    - cat [filename] : View the content from the file
+    - _cat [filename]_ : View the content from the file
+
       ![ls](../resources/linux-output/cat2-cmd.png)
 
-    - cat >> [filename] : Update the content of the file.
+    - _cat >> [filename]_ : Update the content of the file.
+
       ![ls](../resources/linux-output/cat3-cmd.png)
 
       > ❗ _Press Ctrl + C to exit from editor._
@@ -132,6 +142,7 @@ A shell is basically a program that receives commands from the user and gives it
       ![ls](../resources/linux-output/mkdir3-cmd.png)
 
 7.  **rmdir** -> To delete an existing directory.
+
     ![ls](../resources/linux-output/rmdir-cmd.png)
 
     > ⚠️ _Not performs delete operation if directory is not empty ._
@@ -140,8 +151,9 @@ A shell is basically a program that receives commands from the user and gives it
 
     ![ls](../resources/linux-output/rm-cmd.png)
 
-    - rm -r [directoryName] : Delete files and directories recursively.
-    - rm -f [fileName] : Remove files forcebly.
+    - _rm -r [directoryName]_ : Delete files and directories recursively.
+    - _rm -f [fileName]_ : Remove files forcebly.
+    - _rm \*_ : Remove all files from the current directory.
 
       ![ls](../resources/linux-output/rm-rf-cmd.png)
 
@@ -151,12 +163,12 @@ A shell is basically a program that receives commands from the user and gives it
 
       ![ls](../resources/linux-output/mv-cmd.png)
 
-    > ❗ _mv can also be used for renaming a file -> mv [fileName] [destinationPath]_
+    > ❗ _mv can also be used for renaming a file -> mv [fileName] [newfileName]_
 
 10. **cp** -> To copy an existing file to a new destination path.
 
-    - cp [filename1] [newfilename]
-    - cp [filename1] [newfilename] [destinationPath]
+    - _cp [filename1] [newfilename]_
+    - _cp [filename1] [newfilename] [destinationPath]_
 
       ![ls](../resources/linux-output/cp-cmd.png)
 
@@ -188,7 +200,15 @@ A shell is basically a program that receives commands from the user and gives it
 
     ![ls](../resources/linux-output/which-cmd.png)
 
-17. **nano** -> Nano is and in-built installed text editors in the Linux command line.
+17. **ps** -> To display all running application.
+
+    ![ls](../resources/linux-output/ps-cmd.png)
+
+18. **nano** -> Nano is and in-built installed text editors in the Linux command line.
+
+    ![ls](../resources/linux-output/nano-cmd.png)
+
+    ![ls](../resources/linux-output/nano2-cmd.png)
 
 > ❗ _Save your files after editing by using the sequence Ctrl+X, then Y (or N for no)_
 
@@ -196,11 +216,11 @@ A shell is basically a program that receives commands from the user and gives it
 
 19. **more/less** -> To create a new directory.
 
-20. **wget** -> To create a new directory.
+20. **wget** -> To display command line browser.
 
-21. **clear** -> To delete an existing directory.
+21. **clear** -> To clear the terminal if it gets filled up with too many commands.
 
-22. **exit** -> To create a new directory.
+22. **exit** -> To exit from the terminal.
 
 [⬆️ back on top](#introduction)
 

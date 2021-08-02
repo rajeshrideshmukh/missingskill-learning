@@ -14,9 +14,8 @@
 
 2. [Git](https://github.com/rajeshrideshmukh/missingskill-learning/blob/master/git/git.md "Go to Git documentation")
    ```
-   | Introduction & History
+   | Introduction
    | Why to Use?
-   | How to Use?
    | Git Commands
    ```
 3. [Basic Building Block of Web Application Development](https://github.com/rajeshrideshmukh/missingskill-learning/blob/master/bbbwac/basic-building-block.md "Go to the documentation")
