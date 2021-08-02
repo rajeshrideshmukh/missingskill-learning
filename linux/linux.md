@@ -22,7 +22,7 @@ The name '**Linux**' comes from the name of it's developer i.e. Linus Torvalds.
 
 > ❗ _Non-proprietary software - A software that has no patent or copyright conditions associated with it._
 
-# Why to Use ?
+# 📌 Why to Use ?
 
 ## 🔵 Open source
 
@@ -46,9 +46,9 @@ The name '**Linux**' comes from the name of it's developer i.e. Linus Torvalds.
 
 > ❗ _\*nix denotes all distrubution inspired from Unix which include FreeBSD, FreeBSD, etc._
 
-[⬆️ back on top](#introduction)
+[⬆️ back on top](#)
 
-# Linux Commands
+# 📌 Linux Commands
 
 Linux's shell/terminal is the main part. All the commands are performed in the shell of Linux.
 
@@ -222,10 +222,10 @@ A shell is basically a program that receives commands from the user and gives it
 
 22. **exit** -> To exit from the terminal.
 
-[⬆️ back on top](#introduction)
+[⬆️ back on top](#)
 
-# Linux File System
+# 📌 Linux File System
 
 ![ls](../resources/linux-output/linux-file-system.png)
 
-[⬆️ back on top](#introduction)
+[⬆️ back on top](#)
