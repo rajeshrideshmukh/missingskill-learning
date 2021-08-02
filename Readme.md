@@ -10,5 +10,5 @@
    - Linux Commands
    - Linus File System
 2. Git
-3. Basic Building Block of Web
+3. Basic Building Block of Web Application Development
 4. JavaScript
