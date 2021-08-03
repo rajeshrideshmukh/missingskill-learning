@@ -63,8 +63,7 @@ A shell is basically a program that receives commands from the user and gives it
     -> To list all files and directories that are present in the current directory.
 
     &nbsp;
-
-    ![ls](../resources/linux-output/ls-cmd.png)
+    <img src="../resources/linux-output/ls-cmd.png" width="400" height="100" />
 
     **ls command with flags** :
 
@@ -74,7 +73,7 @@ A shell is basically a program that receives commands from the user and gives it
     - _ls -t_ : To sort the list in ascending order of the modification time.
     - _ls -r_ : To show the list in reverse order.
 
-      ![ls](../resources/linux-output/ls-alht.png)
+       <img src="../resources/linux-output/ls-alht.png" width="400" height="180" />
 
       > ❗ _files starting with '-rw-r' indicates a file_
 
@@ -85,7 +84,7 @@ A shell is basically a program that receives commands from the user and gives it
 2.  **cd**
     -> To jump from one directory to other.
 
-    ![ls](../resources/linux-output/cd-cmd.png)
+       <img src="../resources/linux-output/cd-cmd.png" width="350" height="100" />
 
     **cd command with other options** :
 
@@ -95,31 +94,30 @@ A shell is basically a program that receives commands from the user and gives it
 
     - _cd .._ : To jump one directory back
 
-      ![ls](../resources/linux-output/cd..cmd.png)
+       <img src="../resources/linux-output/cd..cmd.png" width="400" height="100" />
 
     - _cd / cd ~_ : To jump directly into home directory.
 
-      ![ls](../resources/linux-output/cd..cmd.png)
-
-      ![ls](../resources/linux-output/cd~cmd.png)
+       <img src="../resources/linux-output/cdcmd.png" width="450" height="100" />
+       
+       <img src="../resources/linux-output/cd~cmd.png" width="450" height="100" />
 
     - _cd /_ : To jump directly into root directory.
 
-      ![ls](../resources/linux-output/cd_cmd.png)
+       <img src="../resources/linux-output/cd_cmd.png" width="450" height="100" />
 
     &nbsp;
 
 3.  **pwd** -> To show the path of current working directory
 
-    ![ls](../resources/linux-output/pwd-cmd.png)
-
+       <img src="../resources/linux-output/pwd-cmd.png" width="400" height="80" />
     &nbsp;
 
 4.  **touch** -> To create a blank file
 
-    ![ls](../resources/linux-output/touch-cmd.png)
+       <img src="../resources/linux-output/touch-cmd.png" width="550" height="130" />
 
-    > ❗ _touch .fileName creates hidden file_
+    > ❗ _touch .fileName creates hidden file. (filename preceeded by '.')_
 
     &nbsp;
 
@@ -128,11 +126,11 @@ A shell is basically a program that receives commands from the user and gives it
 
     - _cat > [filename]_ : Add the content into the file.
 
-      ![ls](../resources/linux-output/cat1-cmd.png)
+       <img src="../resources/linux-output/cat1-cmd.png" width="400" height="100" />
 
     - _cat [filename]_ : View the content from the file
 
-      ![ls](../resources/linux-output/cat2-cmd.png)
+       <img src="../resources/linux-output/cat2-cmd.png" width="400" height="100" />
 
     - _cat >> [filename]_ : Update the content of the file.
 
@@ -146,11 +144,11 @@ A shell is basically a program that receives commands from the user and gives it
 
     - _mkdir [directoryName]_ : Creates new directory
 
-      ![ls](../resources/linux-output/mkdir-cmd.png)
+       <img src="../resources/linux-output/mkdir-cmd.png" width="450" height="100" />
 
     - _mkdir [directoryName1] [directoryName2] [directoryName3]_ : Creates multiple folder in current directory
 
-      ![ls](../resources/linux-output/mkdir2-cmd.png)
+       <img src="../resources/linux-output/mkdir2-cmd.png" width="450" height="100" />
 
     - _mkdir [folderName1/folderName2/folderName3] -p_ : Creates sub-directories inside directories.
 
@@ -208,7 +206,7 @@ A shell is basically a program that receives commands from the user and gives it
 
     - **whoami** -> To display the username of the current user.
 
-      <img src="../resources/linux-output/who-cmd.png" width="400" height="200" />
+      <img src="../resources/linux-output/who-cmd.png" width="350" height="150" />
     &nbsp;
 
 14. **ping** -> To check your connection to a server.
@@ -233,13 +231,13 @@ A shell is basically a program that receives commands from the user and gives it
 
 17. **ps** -> To display all running application.
 
-    ![ls](../resources/linux-output/ps-cmd.png)
+       <img src="../resources/linux-output/ps-cmd.png" width="400" height="130" />
 
     &nbsp;
 
 18. **nano** -> Nano is and in-built installed text editors in the Linux command line.
 
-    ![ls](../resources/linux-output/nano-cmd.png)
+       <img src="../resources/linux-output/nano-cmd.png" width="400" height="120" />
 
     ![ls](../resources/linux-output/nano2-cmd.png)
 
