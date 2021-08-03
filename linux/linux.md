@@ -6,7 +6,9 @@ So, Linux is basically a Kernel and **not an operating system**. It acts as an i
 
 > ❗ _A kernel is a software that is present at the center of an operating system. And it's task is to manage all the operations of computer and hardware._
 
-# History
+&nbsp;
+
+# 📌 History
 
 The name '**Linux**' comes from the name of it's developer i.e. Linus Torvalds.
 
@@ -21,6 +23,8 @@ The name '**Linux**' comes from the name of it's developer i.e. Linus Torvalds.
 - In 1991, Richard Stallman & Linus Torvalds came together to create a firm GNU/Linux which was open source and completely free.
 
 > ❗ _Non-proprietary software - A software that has no patent or copyright conditions associated with it._
+
+&nbsp;
 
 # 📌 Why to Use ?
 
@@ -50,6 +54,8 @@ The name '**Linux**' comes from the name of it's developer i.e. Linus Torvalds.
 > ❗ _\*nix denotes all distrubution inspired from Unix which include FreeBSD, FreeBSD, etc._
 
 [⬆️ back on top](#)
+
+&nbsp;
 
 # 📌 Linux Commands
 
@@ -267,6 +273,8 @@ A shell is basically a program that receives commands from the user and gives it
 22. **exit** -> To exit from the terminal.
 
 [⬆️ back on top](#)
+
+&nbsp;
 
 # 📌 Linux File System
 
