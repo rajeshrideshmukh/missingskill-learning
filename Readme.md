@@ -19,7 +19,7 @@
    | Git Terminologies
    | Git Commands
    ```
-3. [Basic Building Block of Web Application Development](https://github.com/rajeshrideshmukh/missingskill-learning/blob/master/bbbwac/basic-building-block.md "Go to the documentation")
+3. [Basic Building Block of Web Application Development](https://github.com/rajeshrideshmukh/missingskill-learning/blob/master/bbbwad/basic-building-block.md "Go to the documentation")
 
    ```
    | Programming languages
