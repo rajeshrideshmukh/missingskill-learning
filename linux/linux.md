@@ -27,13 +27,16 @@ The name '**Linux**' comes from the name of it's developer i.e. Linus Torvalds.
 ## 🔵 Open source
 
     Linux is freely available to anyone.
-    It is open source, that means the source code of Linux is available and accessible for use, modification and even distribution with it's original rights by anyone and for any purpose.
+    It is open source, that means the source code of Linux is available and accessible for use, modification and even distribution
+    with it's original rights by anyone and for any purpose.
 
 ## 🔵 Linux Distribution
 
-    A Linux distribution, also called as Linux distro, is an operating system compiled from components developed by various open source projects and programmers.
+    A Linux distribution, also called as Linux distro, is an operating system compiled from components developed by various
+    open source projects and programmers.
 
-    Because it is open source software, anyone can make their own Linux distribution by assembling it from the source code themselves, or by modifying an existing distribution.
+    Because it is open source software, anyone can make their own Linux distribution by assembling it from the source code
+    themselves, or by modifying an existing distribution.
 
      Around 600 + Linux Distributions are available and some of the popular Linux distributions are:
 
@@ -59,6 +62,8 @@ A shell is basically a program that receives commands from the user and gives it
 1.  **ls**
     -> To list all files and directories that are present in the current directory.
 
+    &nbsp;
+
     ![ls](../resources/linux-output/ls-cmd.png)
 
     **ls command with flags** :
@@ -75,6 +80,8 @@ A shell is basically a program that receives commands from the user and gives it
 
       > ❗ _files starting with 'drwxr' indicates a directory_
 
+    &nbsp;
+
 2.  **cd**
     -> To jump from one directory to other.
 
@@ -84,7 +91,7 @@ A shell is basically a program that receives commands from the user and gives it
 
     - _cd -_ : To jump to previously visited directory.
 
-      ![ls](../resources/linux-output/cd--cmd.png)
+      <img src="../resources/linux-output/cd--cmd.png" width="400" height="250" />
 
     - _cd .._ : To jump one directory back
 
@@ -100,15 +107,21 @@ A shell is basically a program that receives commands from the user and gives it
 
       ![ls](../resources/linux-output/cd_cmd.png)
 
+    &nbsp;
+
 3.  **pwd** -> To show the path of current working directory
 
     ![ls](../resources/linux-output/pwd-cmd.png)
+
+    &nbsp;
 
 4.  **touch** -> To create a blank file
 
     ![ls](../resources/linux-output/touch-cmd.png)
 
     > ❗ _touch .fileName creates hidden file_
+
+    &nbsp;
 
 5.  **cat** -> To add, update or view content from a file.
     **cat command with other options** :
@@ -123,9 +136,11 @@ A shell is basically a program that receives commands from the user and gives it
 
     - _cat >> [filename]_ : Update the content of the file.
 
-      ![ls](../resources/linux-output/cat3-cmd.png)
+      <img src="../resources/linux-output/cat3-cmd.png" width="350" height="200" />
 
       > ❗ _Press Ctrl + C to exit from editor._
+
+    &nbsp;
 
 6.  **mkdir** -> To create a new directory.
 
@@ -139,70 +154,88 @@ A shell is basically a program that receives commands from the user and gives it
 
     - _mkdir [folderName1/folderName2/folderName3] -p_ : Creates sub-directories inside directories.
 
-      ![ls](../resources/linux-output/mkdir3-cmd.png)
+      <img src="../resources/linux-output/mkdir3-cmd.png" width="400" height="250" />
+
+    &nbsp;
 
 7.  **rmdir** -> To delete an existing directory.
 
-    ![ls](../resources/linux-output/rmdir-cmd.png)
+    <img src="../resources/linux-output/rmdir-cmd.png" width="600" height="200" />
 
     > ⚠️ _Not performs delete operation if directory is not empty ._
 
+    &nbsp;
+
 8.  **rm** -> To remove file.
 
-    ![ls](../resources/linux-output/rm-cmd.png)
+    <img src="../resources/linux-output/rm-cmd.png" width="600" height="220" />
 
     - _rm -r [directoryName]_ : Delete files and directories recursively.
     - _rm -f [fileName]_ : Remove files forcebly.
     - _rm \*_ : Remove all files from the current directory.
 
-      ![ls](../resources/linux-output/rm-rf-cmd.png)
+       <img src="../resources/linux-output/rm-rf-cmd.png" width="500" height="200" />
 
 9.  **mv** -> To move a file from source to destination path.
 
     - mv [fileName] [destinationPath]
 
-      ![ls](../resources/linux-output/mv-cmd.png)
+       <img src="../resources/linux-output/mv-cmd.png" width="400" height="250" />
 
     > ❗ _mv can also be used for renaming a file -> mv [fileName] [newfileName]_
+
+    &nbsp;
 
 10. **cp** -> To copy an existing file to a new destination path.
 
     - _cp [filename1] [newfilename]_
     - _cp [filename1] [newfilename] [destinationPath]_
 
-      ![ls](../resources/linux-output/cp-cmd.png)
+      <img src="../resources/linux-output/cp-cmd.png" width="500" height="250" />
+    &nbsp;
 
 11. **history** -> To list all the previously performed commands.
 
-    ![ls](../resources/linux-output/history-cmd.png)
+     <img src="../resources/linux-output/history-cmd.png" width="400" height="200" />
+    &nbsp;
 
 12. **echo** -> To display message on terminal.
 
-    ![ls](../resources/linux-output/echo-cmd.png)
+     <img src="../resources/linux-output/echo-cmd.png" width="400" height="200" />
+    &nbsp;
 
 13. **who** -> To display currently logged-in users in the system.
 
     - **whoami** -> To display the username of the current user.
 
-    ![ls](../resources/linux-output/who-cmd.png)
+      <img src="../resources/linux-output/who-cmd.png" width="400" height="200" />
+    &nbsp;
 
 14. **ping** -> To check your connection to a server.
 
-    ![ls](../resources/linux-output/ping-cmd.png)
+      <img src="../resources/linux-output/ping-cmd.png" width="400" height="200" />
+
+    &nbsp;
 
 15. **ipconfig/ifconfig** -> To display the configuration of system.
 
-    ![ls](../resources/linux-output/ipconfig-cmd.png)
+     <img src="../resources/linux-output/ipconfig-cmd.png" width="500" height="400" />
 
     > ❗ _ifconfig is used in Unix-like OS_
+
+    &nbsp;
 
 16. **which** -> To locate the executable file of the given command.
 
     ![ls](../resources/linux-output/which-cmd.png)
 
+    &nbsp;
+
 17. **ps** -> To display all running application.
 
     ![ls](../resources/linux-output/ps-cmd.png)
+
+    &nbsp;
 
 18. **nano** -> Nano is and in-built installed text editors in the Linux command line.
 
@@ -212,13 +245,26 @@ A shell is basically a program that receives commands from the user and gives it
 
 > ❗ _Save your files after editing by using the sequence Ctrl+X, then Y (or N for no)_
 
+&nbsp;
+
+17. **man & help** -> To know more about a command and how to use it.
+
+    <img src="../resources/linux-output/help-cmd.png" width="400" height="400" />
+
+&nbsp;
+
 18. **top** -> To display a list of all the running processes along with their CPU uages.
 
-19. **more/less** -> To create a new directory.
+19. **more/less** ->
+
+    - more : To display the whole content from a file.
+    - less : To display content of files with help of pagination.
 
 20. **wget** -> To display command line browser.
 
 21. **clear** -> To clear the terminal if it gets filled up with too many commands.
+
+> ❗ _Shortcut for clear command - Ctrl + L_
 
 22. **exit** -> To exit from the terminal.
 
