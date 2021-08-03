@@ -192,8 +192,6 @@ The set of common methods for HTTP is defined below
   - BSD
   - Mozilla
 
-  &nbsp;
-
   > ❗ _Oracle filed a lawsuit against Google for stealing 11,330 lines of their Java code for creating Android and Google paid a penalty of $9 Billion_
 
 &nbsp;
@@ -257,13 +255,13 @@ Project Management Tools are some tools that are used in organization to keep tr
 
 ## 📌 Dev workflow
 
--Feature Branch -> Develop Branch -> Master Branch
+- Feature Branch -> Develop Branch -> Master Branch
 
-This is how the flow goes ..
+  This is how the flow goes ..
 
-- Feature Branch : Developer develops all the feature in seperate feature branches.
-- Develop Branch : All the feature after being reviewed get merged into the develop branch if approved.
-- Master Branch : Final developments gets merged and gets deployed.
+  - Feature Branch : Developer develops all the feature in seperate feature branches.
+  - Develop Branch : All the feature after being reviewed get merged into the develop branch if approved.
+  - Master Branch : Final developments gets merged and gets deployed.
 
 &nbsp;
 
