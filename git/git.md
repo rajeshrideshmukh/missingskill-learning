@@ -29,6 +29,10 @@ So, Git is used for tracking the changes that we make in our code, to revert bac
 - They can revert back to previous versions. And can also store a copy of their code in the local system.
 - Allows multiple developers to work together in parallel without any conflicts.
 
+  &nbsp;
+
+    <img src="../resources/git-output/git-diagram.png" width="600" height="400" />
+
 [⬆️ back on top](#)
 
 &nbsp;
@@ -122,8 +126,27 @@ other is trying to push it's modified file to remote repository which would resu
 
     <img src="../resources/git-output/git-add.png" width="400" height="200" />
 
+- git commit
+
+    <img src="../resources/git-output/git-commit.png" width="400" height="100" />
+
 - git push
 
     <img src="../resources/git-output/git-push.png" width="450" height="170" />
+
+- git branch & switch branch
+
+    <img src="../resources/git-output/git-branch.png" width="500" height="180" />
+
+    <img src="../resources/git-output/git-switch-branch.png" width="500" height="180" />
+
+- git checkout to recover deleted file
+
+    <img src="../resources/git-output/git-checkout.png" width="500" height="180" />
+
+- git clone -
+
+    <img src="../resources/git-output/git-clone2.png" width="500" height="250" />
+    <img src="../resources/git-output/git-clone3.png" width="500" height="250" />
 
 [⬆️ back on top](#)
