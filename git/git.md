@@ -110,4 +110,8 @@ Example - When two developers are making changes in same file and after one deve
 | git pull  | To fetch and merge changes from the remote repository to the local repository |
 | git push  | To push the content from the local repository to the remote repository        |
 
+## Some of the commands Performed:
+
+- git status (Before committing)
+
 [⬆️ back on top](#)
