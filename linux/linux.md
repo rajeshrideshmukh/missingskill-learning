@@ -166,7 +166,7 @@ A shell is basically a program that receives commands from the user and gives it
 
 8.  **rm** -> To remove file.
 
-    <img src="../resources/linux-output/rm-cmd.png" width="600" height="220" />
+    <img src="../resources/linux-output/rm-cmd.png" width="580" height="200" />
 
     - _rm -r [directoryName]_ : Delete files and directories recursively.
     - _rm -f [fileName]_ : Remove files forcebly.
@@ -237,9 +237,9 @@ A shell is basically a program that receives commands from the user and gives it
 
 18. **nano** -> Nano is and in-built installed text editors in the Linux command line.
 
-       <img src="../resources/linux-output/nano-cmd.png" width="400" height="120" />
-
-    ![ls](../resources/linux-output/nano2-cmd.png)
+       <img src="../resources/linux-output/nano-cmd.png" width="400" height="120" />    
+      
+      ![ls](../resources/linux-output/nano2-cmd.png)
 
 > ❗ _Save your files after editing by using the sequence Ctrl+X, then Y (or N for no)_
 
