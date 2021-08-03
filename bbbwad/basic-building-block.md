@@ -46,8 +46,6 @@ Versions :
 | Numbers in IPv4 are seperated by period.                                   | Numbers in IPv6 are seperated by period.                                |
 | Example : 12.244.233.165                                                   | Example : 2001:0db8:0000:0000:0000:ff00:0042:7879                       |
 
----
-
 ## **IPv4 Classes**:
 
 | Class   | Range     | Application                |
@@ -58,7 +56,7 @@ Versions :
 | Class D | 224 - 239 | Not used/Reserved          |
 | Class E | 240 - 255 | Not used                   |
 
-> _❗ IP Address is like our **Building's address**. When someone wants to meet us they would need atleast our Building's address and it can take them till the gate of our building._ > &nbsp;
+> _❗ IP Address is like our **Building's address**. When someone wants to meet us they would need atleast our Building's address and it can take them till the gate of our building._
 
 &nbsp;
 
@@ -73,7 +71,9 @@ Versions :
 | 1024 - 49150  | Used for running web application.                                  |
 | 49151 - 65535 | They are open port and can be use by anyone.                       |
 
-> _❗ Port number is like our **room number to our home**._ > &nbsp;
+> _❗ Port number is like our **room number to our home**._
+
+&nbsp;
 
 ## **Web Port**
 
@@ -110,7 +110,15 @@ Port 80 is used by HTTP & 443 by HTTPS which provides secure connection.
   | .com   | commercial business        |
   | .net   | Network organizations      |
 
-## Structure of a domain name
+## Structure of a url:
+
+    Example : https//www.domain-name.com
+
+- https: Protocol
+- www : Sub-domain
+- domain-name : Domain-name
+- .com : Top Level Domain
+- domain-name.com : Root Domain
 
 > _❗ If a website is considered as a house then the domain name is indicated as it's address_
 
