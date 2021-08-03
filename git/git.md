@@ -45,7 +45,8 @@ In simple terms, git repository is a folder/container to store all the project f
 All these files are present in .git/ (hidden folder)
 
         - Local repository : This is present in our local system and is used to work offline.
-        - Remote repository : This refers to a server repository (Example - GitHub). It can be used by all the team members to track and make the changes in the code.
+        - Remote repository : This refers to a server repository (Example - GitHub). It can be used by all the team members to track
+        and make the changes in the code.
 
 ```
 
@@ -77,7 +78,8 @@ Commit is a process of adding the code from staging area to local repository.
 ```
 Conflict occurs when git is not able to resolve the differences in the code between two commits.
 
-Example - When two developers are making changes in same file and after one developer has push the file in remote repository, other is trying to push it's modified file to remote repository which would result in conflict.
+Example - When two developers are making changes in same file and after one developer has push the file in remote repository,
+other is trying to push it's modified file to remote repository which would result in conflict.
 ```
 
 &nbsp;
@@ -113,5 +115,15 @@ Example - When two developers are making changes in same file and after one deve
 ## Some of the commands Performed:
 
 - git status (Before committing)
+
+    <img src="../resources/git-output/git-status.png" width="400" height="100" />
+
+- git add & git status
+
+    <img src="../resources/git-output/git-add.png" width="400" height="200" />
+
+- git push
+
+    <img src="../resources/git-output/git-push.png" width="450" height="170" />
 
 [⬆️ back on top](#)
