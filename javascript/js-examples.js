@@ -41,12 +41,80 @@
 // console.log(one === 1); // true
 // console.log(one === one); // true
 
-const ar1 = [1];
-const ar2 = [1];
+// const ar1 = [1];
+// const ar2 = [1];
 
-console.log(ar1 === ar2); // false
-console.log(ar1 === [1]); // false
+// console.log(ar1 === ar2); // false
+// console.log(ar1 === [1]); // false
 
-const ar11 = ar1;
-console.log(ar1 === ar11); // true
-console.log(ar1 === ar1); // true
+// const ar11 = ar1;
+// console.log(ar1 === ar11); // true
+// console.log(ar1 === ar1); // true
+
+//scope
+//lexical scope
+// function outer() {
+//   // the outer scope
+//   let outerVar = "I am from outside!";
+
+//   function inner() {
+//     // the inner scope
+//     console.log(outerVar); // 'I am from outside!'
+//   }
+
+//   return inner;
+// }
+
+// const result = outer();
+// result();
+
+//hoisting
+
+// console.log("x = ", x); // display x = 1
+
+// var x = 1;
+
+//function hoisting
+// var result = Sum(5, 5); // 10
+
+// console.log(result);
+
+// function Sum(val1, val2) {
+//   return val1 + val2;
+// }
+
+// Add(5, 5); // error
+
+// var Add = function Sum(val1, val2) {
+//   return val1 + val2;
+// };
+
+//closure
+// function outer() {
+//   var b = 10;
+//   function inner() {
+//     var a = 20;
+//     console.log(a + b);
+//   }
+//   return inner;
+// }
+// let result = outer();
+// result();
+
+//this keyword
+// function printThis() {
+//   console.log(this);
+// }
+// printThis(); // in browser it can be window object or in node global object
+
+// var first = "John";
+// var last = "Doe";
+// const user = {
+//   first: "Alex",
+//   last: "Rose",
+//   fullName: function () {
+//     return this.first + " " + this.last;
+//   },
+// };
+
+// console.log(user.fullName()); // returns Alex Rose

@@ -13,7 +13,15 @@ JavaScript code does not needs to be compiled, it is interpreted at run time, ma
 
 ## History of JavaScript
 
- Netscape company came together with Sun Microsystems for adding Java into its Navigator so that it could compete with Microsoft over the web technologies. Later, Netscape decided to give a similar name to the scripting language as Java's. It led to 'Javascript'. Although Java & JavaScript both this languages seems to sound similar, but they are as much as different as the language Tamil & Telgu. Finally, in May 1995,first code of Javascript was released and it was named 'Mocha'. Later it got replaced with 'LiveScript'. But, due to trademark reasons and certain other reasons, in December 1995, the language was finally renamed to 'JavaScript'.
+ Netscape company came together with Sun Microsystems for adding Java into its Navigator so that it could compete with Microsoft over the web technologies. 
+ 
+ Later, Netscape decided to give a similar name to the scripting language as Java's. It led to 'Javascript'. 
+ 
+ Although Java & JavaScript both this languages seems to sound similar, but they are as much as different as the language Tamil & Telgu. 
+ 
+ Finally, in May 1995,first code of Javascript was released and it was named 'Mocha'. Later it got replaced with 'LiveScript'.
+ 
+But, due to trademark reasons and certain other reasons, in December 1995, the language was finally renamed to 'JavaScript'.
  
 
 ## What is ECMAScript ?

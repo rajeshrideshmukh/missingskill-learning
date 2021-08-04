@@ -25,7 +25,7 @@
     |   Operator|	Description	|
     |-----------|---------------|
     |==	| Loose equality operator compares the value of both operands	|
-    |===	| Strict equality operator first check datatype of varaiable and then value gives output as boolean value	|
+    |===	| Strict equality operator first check datatype of varaiable and then value	|
     |!=	|Not Equal	|
     |>	|Greater than|
     |<	|Less than	|
@@ -34,7 +34,7 @@
 
 <br>
 
-3. Assignment Operator
+1. Assignment Operator
    
     |   Operator|	Description	|
     |-----------|---------------|
@@ -70,7 +70,7 @@
 
         > ❗ _Ternary operator could also be used as a shorthand technique for some if else statements_
 
-        ```
+        ```javascript
                 let value = 99;
                 let isSmall;
                 if (value > 100) {
@@ -84,8 +84,6 @@
                 console.log(isSmall); //-> return true
         ```
 
-        <img src="../resources/js-output/js-ternary.png" width="400" height="300" />
-
         &nbsp;
 
 6. typeof Operator
@@ -94,7 +92,7 @@
 
      Syntax :-
 
-    ```
+    ```javascript
         typeof operand
     ```
     ```
@@ -103,18 +101,20 @@
     console.log(typeof 100.0);//-> number
     ```
 
-    <img src="../resources/js-output/js-typeof.png" width="300" height="200" />
 
+[⬆️ back on top](#javascript-basic-concepts)
 
-## 📌 Tech Debt
+<br>
 
 ## 📌 Variables
 
 Variables are considered as a container to hold some values. 
 
-In JavaScript, variables are loosely coupled. It means while we declare a variable we dont need to specify it's type. A JavaScript variable can be assigned any type of value and depending on the value the type is assigned at run time.
+In JavaScript, variables are loosely coupled. It means while we declare a variable we dont need to specify it's type. 
 
-```
+A JavaScript variable can be assigned any type of value and depending on the value the type is assigned at run time.
+
+```javascript
 var a; //this is called declaration
 
 a = 1000; //this is called assignment
@@ -124,42 +124,37 @@ a = true; //Can assign different type of data in same variable.
 
 >  _❗&nbsp; In JavaScript, if a variable has been declared, but has not been assigned a value explicitly, is automatically assigned the value **undefined**._
 
-## Naming Conventions for JavaScript Variables
-
--  must start with a letter, underscore (_), or dollar sign ($).
--  cannot start with a number.
--  can only contain alpha-numeric characters (A-z, 0-9) and underscores.
--  cannot contain spaces.
--  cannot be a JavaScript keyword or a JavaScript reserved word.
-
-    In JavaScript, variables can be created using three keywords:
-
-    &emsp;&emsp;&emsp;🔸 **var** 
-
-    &emsp;&emsp;&emsp;🔸 **let**
-
-    &emsp;&emsp;&emsp;🔸 **const**
+### In JavaScript, variables can be created using three keywords:
 
 
-    <br>
+&emsp;&emsp;&emsp;🔸 **var** 
 
-    |Points                 | var | let | const |
-    |----                   |----|----|-----|
-    | Can be Re-declared    | ✔️ | ❌ | ❌ |
-    | Can be Re-initialized | ✔️ | ✔️ | ❌ |
-    | Can be hoisted        | ✔️ | ❌ | ❌ |
-    |  Blocked Scope        | ❌ | ✔️ | ✔️ |
+&emsp;&emsp;&emsp;🔸 **let**
 
-    <br>
-
-    > _❗ &nbsp;Use meaningful names for declaring variables and do not add uneeded context._
-
-    <img src="../resources/js-output/js-variable.png" width="200" height="250" />
-
-    <img src="../resources/js-output/js-variable2.png" width="250" height="370" />
+&emsp;&emsp;&emsp;🔸 **const**
 
 
+<br>
 
+|Points                 | var | let | const |
+|----                   |----|----|-----|
+| Can be Re-declared    | ✔️ | ❌ | ❌ |
+| Can be Re-initialized | ✔️ | ✔️ | ❌ |
+| Can be hoisted        | ✔️ | ❌ | ❌ |
+|  Blocked Scope        | ❌ | ✔️ | ✔️ |
+
+<br>
+
+> _❗ &nbsp;Use meaningful names for declaring variables and do not add uneeded context._
+
+<img src="../resources/js-output/js-variable.png" width="200" height="250" />
+
+<img src="../resources/js-output/js-variable2.png" width="250" height="370" />
+
+<br>
+
+[⬆️ back on top](#javascript-basic-concepts)
+<br>
 ## 📌 Datatypes
 
 Datatypes can be divided into two main types:
@@ -171,7 +166,6 @@ Datatypes can be divided into two main types:
 
 <img src="../resources/js-output/js-datatypes.png" width="300" height="200" />
 
-<br>
 <br>
 
 ## Primitive types : 
@@ -197,7 +191,7 @@ Datatypes can be divided into two main types:
 
 - All primitive values in JavaScript are passed by value. Passing by value means that every time you assign a value to a variable, a copy of that value is created.
 
-    ```
+    ```javascript
     let a = 1;
     let b = a;
 
@@ -215,7 +209,7 @@ Datatypes can be divided into two main types:
 
     If you modify the object, then all variables that reference that object are going to see the change.
 
-    ```
+    ```javascript
     let a = [1];
     let b = x;
 
@@ -228,7 +222,7 @@ Datatypes can be divided into two main types:
 
     <br>
 
-    <img src="../resources/js-output/js-cpv-cpr.png" width="250" height="250" />
+    <img src="../resources/js-output/js-cpv-cpr.png" width="300" height="300" />
 
 <br>
 
@@ -237,5 +231,3 @@ Datatypes can be divided into two main types:
 [⬆️ back on top](#javascript-basic-concepts)
 
 ↩️ [Home directory](https://github.com/rajeshrideshmukh/missingskill-learning "Go to Home repository")
-
-&nbsp;
