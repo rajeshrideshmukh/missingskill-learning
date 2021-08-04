@@ -34,14 +34,6 @@ Due to rapid growth in JavaScript, Netscape decided to submit it for standardiza
 
 
 
-> ❗ _A kernel is a software that is present at the center of an operating system. And it's task is to manage all the operations of computer and hardware._
-
-&nbsp;
-
-🔸
-🔵
-<img src="../resources/linux-output/ls-cmd.png" width="400" height="100" />
-
 [⬆️ back on top](#)
 
 ↩️ [Home directory](https://github.com/rajeshrideshmukh/missingskill-learning "Go to Home repository")
