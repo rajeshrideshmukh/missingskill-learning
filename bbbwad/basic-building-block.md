@@ -206,7 +206,7 @@ The set of common methods for HTTP is defined below
   | ------------------- | ----------------------- |
   | MySql               | MongoDB                 |
   | PostgreSQL          | Redis                   |
-  | MariaDB             | TCassandra              |
+  | MariaDB             | Cassandra               |
   | Oracle Database     | Apache HBase            |
 
 &nbsp;
@@ -270,11 +270,9 @@ Project Management Tools are some tools that are used in organization to keep tr
 - Development (Dev)
 - User Acceptance Testing (UAT) / Staging
 - Production System
+
   &nbsp;
 
-> ❗ _Examples of Centralized Version Control sytems are Subversion (SVN), Perforce, etc_
-
-&nbsp;
 &nbsp;
 
 [⬆️ back on top](#)
