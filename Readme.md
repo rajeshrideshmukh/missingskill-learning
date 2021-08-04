@@ -39,7 +39,7 @@
    | Infrastructure
    ```
 
-4. [JavaScript](https://github.com/rajeshrideshmukh/missingskill-learning/blob/master/javascript/javascript.md "Go to JavaScript documentation")
+4. [JavaScript](https://github.com/rajeshrideshmukh/missingskill-learning/blob/master/javascript "Go to JavaScript documentation")
    ```
    | Introduction
    | Why to Use?
