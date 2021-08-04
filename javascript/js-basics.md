@@ -211,7 +211,9 @@ Datatypes can be divided into two main types:
     >_Here a & b are independent of each other and therefore after updating b's value, it did not affect value of a._
 
 
-- And all non-primitive types like plain objects, array, functions are pass by references. If you modify the object, then all variables that reference that object are going to see the change.
+- And all non-primitive types like plain objects, array, functions are pass by references. Whenever you create non-primitive variable and assign a value to it, that variable will not store the value directly instead the value will be stored in a memory location, and this variable will pont to that memory location.
+
+    If you modify the object, then all variables that reference that object are going to see the change.
 
     ```
     let a = [1];
@@ -223,6 +225,10 @@ Datatypes can be divided into two main types:
     console.log(b); // [1, 2]
     ```
     >_Here a & b contains same reference of the array and therefore after updating b's value, it affects value of a._
+
+    <br>
+
+    <img src="../resources/js-output/js-cpv-cpr.png" width="250" height="250" />
 
 <br>
 
