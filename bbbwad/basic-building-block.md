@@ -83,6 +83,9 @@ Port 80 is used by HTTP & 443 by HTTPS which provides secure connection.
 
 &nbsp;
 
+[⬆️ back on top](#basic-building-block-of-web-application)
+
+&nbsp;
 ## 📌 Domain
 
 - Domain name is basically what the users see on the browser's url bar.
@@ -124,6 +127,10 @@ Port 80 is used by HTTP & 443 by HTTPS which provides secure connection.
 
 &nbsp;
 
+[⬆️ back on top](#basic-building-block-of-web-application)
+
+
+&nbsp;
 ## 📌 Browsers
 
 - Web browser is a software program which is primarily used for displaying and accessing websites on the internet.
@@ -178,6 +185,9 @@ The set of common methods for HTTP is defined below
 
 &nbsp;
 
+[⬆️ back on top](#basic-building-block-of-web-application)
+
+&nbsp;
 ## 📌 Software License
 
 - Licensing is very important in Software development. Software license provides rights to the end user stating that they can use as well as distribute the software without violating any copyrights.
@@ -275,7 +285,8 @@ Project Management Tools are some tools that are used in organization to keep tr
 
 &nbsp;
 
-[⬆️ back on top](#)
+[⬆️ back on top](#basic-building-block-of-web-application)
+
 
 ↩️ [Home directory](https://github.com/rajeshrideshmukh/missingskill-learning "Go to Home repository")
 
