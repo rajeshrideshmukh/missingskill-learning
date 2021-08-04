@@ -118,3 +118,56 @@
 // };
 
 // console.log(user.fullName()); // returns Alex Rose
+
+//passing function as parameter
+// let add = function (a, b) {
+//   return a + b;
+// };
+// let subtract = function (a, b) {
+//   return a - b;
+// };
+
+// let result = function (operation) {
+//   let a = 20;
+//   let b = 10;
+//   return operation(a, b);
+// };
+
+// console.log(result(add)); // 30
+// console.log(result(subtract)); // 10
+
+//passing returned as parameter
+
+// let add = function (a, b) {
+//   return a + b;
+// };
+// let subtract = function (a, b) {
+//   return a - b;
+// };
+
+// let result = function (operation) {
+//   return operation;
+// };
+
+// let addFunc = result(add);
+// let addResult = addFunc(20, 10);
+
+// let subFunc = result(subtract);
+// let subResult = subFunc(20, 10);
+
+// console.log(addResult); //30
+// console.log(subResult); //10
+
+//iife
+// var userName = "Alex";
+
+// (function (name) {
+//   function display(name) {
+//     console.log("User Name : " + name);
+//   }
+//   display(name);
+// })(userName);
+
+let a = {};
+console.log(typeof !!a);
+console.log(!!a);

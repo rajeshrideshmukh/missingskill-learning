@@ -100,7 +100,7 @@
 
         >_⚠️ Only variable & function declaration moves to the top, not the initialization and function expression._
 
-        <img src="../resources/js-output/js-hoisting2.png" width="500" height="350" />
+        <img src="../resources/js-output/js-hoisting2.png" width="500" height="320" />
 
 <br>
 
@@ -166,6 +166,10 @@ In early stages when JavaScript was written, there were few errors/loopholes whi
 
   <br>
 
+[⬆️ back on top](#javascript-advance-concepts)
+
+<br>
+
 ## 📌 Closure
 
 - In JavaScript, closure is a feature which states that if functions are nested then the inner function can access the variables of it's outer function.
@@ -184,12 +188,187 @@ In early stages when JavaScript was written, there were few errors/loopholes whi
     let result = outer(); //result stores the reference to inner()
     result(); //inner() is invoked and prints 30
     ```
+<br>
+
+## 📌 Arrays
+
+Array is a type of variable which is used for storing multiple values. Each of these values can be accessed through an index which starts from 0. 
+
+Array is capable of holding different types of data and we don't specify the size for array, arrays are dynamically sized.
+
+Array in JavaScript is object, that means typeof `arrayName` returns as **object**.
+
+Arrays can be created in two ways :
+
+1. Using new keyword
+    ```javascript
+    let colors = new Array(3); // creates an array with initial size 3
+    let numb = new Array(9,10,8,7,6);
+    ```
+2. Using array literal notation
+   
+   This is mostly prefered than the Array constructor.
+
+   Syntax :
+
+    ```javascript
+    let arrayName = [element1, element2, element3, ...];
+    ```
+    Example :
+    ```javascript
+    let colors = ['red', 'green', 'blue']; 
+    colors[1]; //accessing the item at index 1 ('green')
+
+    console.log(colors.length); // returns the length of array ( total number of elements present)
+
+    ```
+
+## **Array Methods**
+
+Methods | Description
+--------|------------
+concat() | Returns a new array object that contains two or more merged arrays
+toString() | Converts an array into string form
+shift() | Removes first element from an array and "shifts" all other elements to lower index
+unshift() | Adds a new element to an array at the start and "unshifts" other elements to higher index
+indexof() | Searches the array for an element and return its first index
+isArray() | To test if the variable is an array
+push() | Adds a new element to an array
+pop() | Removes last element from an array
+splice() | Adds/Removes element to/from given array
+slice() | Returns a new array containing the copy of the part of selected array
+forEach() | Calls a function once for each element
+filter() | Creates new array with all elements that pass the test in the testing function
+map() | Calls a specified function for every array element and returns a new array
+reduce() | Accepts multiple parameters and returns a single value
+
+<br>
+
+- Example of map() filer() reduce()
+
+    <img src="../resources/js-output/js-array-method.png" width="550" height="350" />
+
+[⬆️ back on top](#javascript-advance-concepts)
 
 
+## 📌 Object
 
+Object is a non-primitive datatype which is used to store data in key value pairs. Object properties and methods can be accessed using dot notation or [ ] bracket.
+
+Objects can be created in following ways :
+
+1. Using new keyword
+    ```javascript
+    var person = new Object();
+
+    // Attach properties and methods to person object     
+
+    person.firstName = "Rajeshri";
+    person["lastName"] = "Deshmukh"; 
+    person.age = 23;
+    person.getFullName = function () {
+            return this.firstName + ' ' + this.lastName;
+        };
+
+    ```
+2. Using object literal notation
+   
+   This is mostly prefered than the Array constructor.
+
+   Syntax :
+
+    ```javascript
+   var [objectName] = { key1: value1, key2: value2,...};
+    ```
+    Example :
+    ```javascript
+    var person = { 
+                    firstName: "Rajeshri", 
+                    lastName: "Deshmukh", 
+                    age: 23, 
+                    getFullName: function () { 
+                            return this.firstName + ' ' + this.lastName 
+                    }
+                }; 
+
+        //Accessing the items in person object
+    
+        person.firstName; // returns Rajeshri
+        person.lastName; // returns Deshmukh
+
+        person["firstName"];// returns Rajeshri
+        person["lastName"];// returns Deshmukh
+
+        person.getFullName(); // calling getFullName function
+
+    ```
+
+3. Using Object.create()
+
+    ```javascript
+    let person = {
+    firstName: 'Rajeshri',
+    age : 23
+    }
+
+    let user = Object.create(person);
+
+    user.lastName = 'Deshmukh'; //Adds new key value pair into the object
+    user.age = 24; //Updates the age previous value 
+    
+    ```
+
+    ## Object Methods
+
+    Methods | Description
+    --------|------------
+    assign() | Used to copy properties from source object to target object
+    create() | Used to create a new object with specified prototype object and properties
+    keys() | Returns an array of given object's own property name
+    values() | Returns an array of values
+
+<br>
+
+## 📌 String
+
+JavaScript strings are primitive values. JavaScript strings are also immutable. It means that if you process a string, you will always get a new string. The original string doesn’t change.
+
+To create literal strings in JavaScript, you use single quotes or double quotes.
+
+```javascript
+let greet = 'Hi';
+let greeting = "Hello";
+```
+## String Methods
+
+Methods | Description
+-----------------|---------
+toUpperCase() | Convert the string into upper case
+toLowerCase() | Convert the string into lower case
+split() |  Split the string using delimiter which is passed as parameter
+replace() | Replaces a specified character with another given value in a string
+trim() |Removes whitespace from both sides
+subString() |  Extract a specific part from string and returns a new string
+
+<br>
+
+# 📌 Built-in Constructor
+
+
+Constructor | Example
+------- | -------
+Object() | var user = new Object();
+String() | var firstName = new string();
+Number() | var value = new Number();
+Boolean() | var canVote = new Boolean();
+Array() | var fruits = new Array();
+RegExp() | var flag = new RegExp();
+Function() | var operation = new Function();
+Date() | var bdate = new Date();
+Math() () | Math.floor();
+
+<br>
 
 [⬆️ back on top](#javascript-advance-concepts)
 
 ↩️ [Home directory](https://github.com/rajeshrideshmukh/missingskill-learning "Go to Home repository")
-
-&nbsp;

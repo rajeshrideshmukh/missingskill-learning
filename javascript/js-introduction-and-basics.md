@@ -5,30 +5,11 @@
 # 📌Introduction
 
 JavaScript is one of the most commonly used languages. It was mainly designed to add interactivity to the web pages. It is primarily a client-side language, it runs on your computer within your browser.
-Almost 95% of websited today are build using JavaScript, which also inlcudes big websites like Facebook and YouTube.
+Almost 95% of websites today are build using JavaScript, which also inlcudes big websites like Facebook and YouTube.
 
 JavaScript is one of the three core languages used to develop websites. Whereas HTML and CSS give a website structure and style, JavaScript lets you add functionality and behaviors to your website, allowing your website’s users to interact with great user experience.
 
 JavaScript code does not needs to be compiled, it is interpreted at run time, making it much more dynamic.
-
-## History of JavaScript
-
- Netscape company came together with Sun Microsystems for adding Java into its Navigator so that it could compete with Microsoft over the web technologies. 
- 
- Later, Netscape decided to give a similar name to the scripting language as Java's. It led to 'Javascript'. 
- 
- Although Java & JavaScript both this languages seems to sound similar, but they are as much as different as the language Tamil & Telgu. 
- 
- Finally, in May 1995,first code of Javascript was released and it was named 'Mocha'. Later it got replaced with 'LiveScript'.
- 
-But, due to trademark reasons and certain other reasons, in December 1995, the language was finally renamed to 'JavaScript'.
- 
-
-## What is ECMAScript ?
-
-ECMA stands for European Computer Manufacturer's Association. It is an organization that creates standards for technologies.
-Due to rapid growth in JavaScript, Netscape decided to submit it for standardization. After submitting they could not use the word 'Java' in it's name because it was owned by SunMicro System, hence it was officially named to ECMAScript. However, it is still mostly known as JavaScript.
-
 
 ## Why to Use ?
 
@@ -74,7 +55,7 @@ Due to rapid growth in JavaScript, Netscape decided to submit it for standardiza
 
 <br>
 
-1. Assignment Operator
+3. Assignment Operator
    
     |   Operator|	Description	|
     |-----------|---------------|
@@ -215,6 +196,22 @@ Datatypes can be divided into two main types:
 | string	| Stores sequence of characters. <br> Anything enclosed within " " is considered as string. ``` var name = "Alex"  ```	|
 | undefined	| It means value is not assigned. <br> ``` var total; // total is undefined ```|
 | null	|It represents empty value. <br> ```var result = null; ```	|
+
+> To convert any value to a number datatype, preceed it with '+' 
+```javascript
+let a = "10";
+console.log(typeof +a, +a); //Number 10
+let b = "hello";
+console.log(typeof +b, +b); //Number NaN
+
+```
+> To convert any value to a boolean datatype, preceed it with '!!' 
+```javascript
+let a = "10";
+console.log(typeof +a, +a); //Boolean true
+let b = {};
+console.log(typeof +b, +b); //Boolean false
+```
 
 <br>
 
