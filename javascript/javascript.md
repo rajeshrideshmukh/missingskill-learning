@@ -22,7 +22,7 @@ ECMA stands for European Computer Manufacturer's Association. It is an organizat
 Due to rapid growth in JavaScript, Netscape decided to submit it for standardization. After submitting they could not use the word 'Java' in it's name because it was owned by SunMicro System, hence it was officially named to ECMAScript. However, it is still mostly known as JavaScript.
 
 
-# Why to Use ?
+## Why to Use ?
 
  When you visit a web page in your browser, you are running it's code i.e. the HTML, CSS, and JavaScript. This code runs inside an execution environment which is our browser tab. Consider this scenario like a factory which will take raw materials (the code) and outputs a product (the web page).
 - Speed : Client-side JavaScript is very fast because it can immediately run on the client's browser.
