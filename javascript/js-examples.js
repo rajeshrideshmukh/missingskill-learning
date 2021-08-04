@@ -12,6 +12,23 @@
 // console.log(isSmall);
 
 //2. typeof
-console.log(typeof true); //-> boolean
-console.log(typeof "true"); //-> string
-console.log(typeof 100.0); //-> number
+// console.log(typeof true); //-> boolean
+// console.log(typeof "true"); //-> string
+// console.log(typeof 100.0); //-> number
+
+//3. CBV and CPR
+// let a = 1;
+// let b = a;
+
+// b = b + 2;
+
+// console.log(a); // 1
+// console.log(b); // 3
+
+// let x = [1];
+// let y = x;
+
+// y.push(2);
+
+// console.log(x); // [1, 2]
+// console.log(y); // [1, 2]

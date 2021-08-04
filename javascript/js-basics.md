@@ -34,7 +34,7 @@
 
 <br>
 
-2. Assignment Operator
+3. Assignment Operator
    
     |   Operator|	Description	|
     |-----------|---------------|
@@ -46,7 +46,7 @@
 
 <br>
 
-3. Logical Operator
+4. Logical Operator
    
     |   Operator|	Description	|
     |-----------|---------------|
@@ -56,7 +56,7 @@
 
 <br>
 
-4. Ternary Operator
+5. Ternary Operator
 
     The ternary/conditional operator takes three operands:
     - a condition followed by a question mark ( ? ), 
@@ -88,7 +88,7 @@
 
         &nbsp;
 
-5. typeof Operator
+6. typeof Operator
    
    This operator returns the datatype of the give operand in the form of string. The operand can be any object, function, or variable.
 
@@ -152,18 +152,81 @@ a = true; //Can assign different type of data in same variable.
 
     <br>
 
-    > _❗ &nbsp;Use meaningful names for declaring variables._
+    > _❗ &nbsp;Use meaningful names for declaring variables and do not add uneeded context._
 
-    <img src="../resources/js-output/js-variable.png" width="200" height="200" />
+    <img src="../resources/js-output/js-variable.png" width="200" height="250" />
+
+    <img src="../resources/js-output/js-variable2.png" width="250" height="370" />
 
 
 
 ## 📌 Datatypes
 
-## 📌 Copy by Value V/s Copy by Reference
+Datatypes can be divided into two main types:
+
+&emsp;&emsp;&emsp;🔸 **Primitive** 
+
+&emsp;&emsp;&emsp;🔸 **Non-primitive**
 
 
+<img src="../resources/js-output/js-datatypes.png" width="300" height="200" />
 
+<br>
+<br>
+
+## Primitive types : 
+ 
+|   Datatype|	Description	|
+|-----------|---------------|
+| boolean	| Stores boolean value i.e. true & false <br> ``` var isValid = true; // isValid is a boolean variable.```|
+| number	|Stores numeric value for <br> ```var age = 23 ```|
+| string	| Stores sequence of characters. <br> Anything enclosed within " " is considered as string. ``` var name = "Alex"  ```	|
+| undefined	| It means value is not assigned. <br> ``` var total; // total is undefined ```|
+| null	|It represents empty value. <br> ```var result = null; ```	|
+
+<br>
+
+## Non-primitive types : 
+ 
+|   Datatype|	Description	|
+|-----------|---------------|
+| object	| Represents collection of primitive and non-primitive values. <br> Stored in key value pairs. To access the value we should use ./[] <br> ``` var person = { name : "Alex" , age : 23}; ``` <br> ``` console.log(person.age); // -> 23 ``` |
+| array	| Stores more than one value or a group of values under a single variable. To access members of array use index with []. <br> ```var fruits = ["Apple", "Banana", "Mango", "Orange", "Papaya"];``` <br> ``` console.log(fruits[2]); // -> Mango```|
+
+## 📌 Pass by Value V/s Pass by Reference
+
+- All primitive values in JavaScript are passed by value. Passing by value means that every time you assign a value to a variable, a copy of that value is created.
+
+    ```
+    let a = 1;
+    let b = a;
+
+    b = b + 2;
+
+    console.log(a); // 1
+    console.log(b); // 3
+
+    ```
+
+    >_Here a & b are independent of each other and therefore after updating b's value, it did not affect value of a._
+
+
+- And all non-primitive types like plain objects, array, functions are pass by references. If you modify the object, then all variables that reference that object are going to see the change.
+
+    ```
+    let a = [1];
+    let b = x;
+
+    b.push(2);
+
+    console.log(a); // [1, 2]
+    console.log(b); // [1, 2]
+    ```
+    >_Here a & b contains same reference of the array and therefore after updating b's value, it affects value of a._
+
+<br>
+
+<br>
 
 [⬆️ back on top](#javascript-basic-concepts)
 
