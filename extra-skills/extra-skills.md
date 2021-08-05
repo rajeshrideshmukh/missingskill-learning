@@ -35,7 +35,7 @@ Tag | Description |
 
 **HTML5**
 
-This is the latest veersion of HTML and they have added many new  tags/features like :
+This is the latest version of HTML and they have added many new  tags/features like :
 
 Tag | Description
 ------- | -------
@@ -145,6 +145,8 @@ Small | >=576px
 Medium | >=768px
 Large | >=992px
 Extra large | >=1200px
+
+Few classes from Bootstrap 4 are given below:
 
 Classes | Description
 ------- | -------
