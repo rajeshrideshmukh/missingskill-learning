@@ -39,7 +39,7 @@
    | Infrastructure
    ```
 
-4. [JavaScript](https://github.com/rajeshrideshmukh/missingskill-learning/blob/master/javascript "Go to JavaScript documentation")
+4. [JavaScript](https://github.com/rajeshrideshmukh/missingskill-learning/blob/master/javascript)
    ```
    | Introduction
    | Why to Use?
@@ -61,8 +61,12 @@
    | JavaScript Functions
    | ES6
    ```
-5. Extra Skills
-
+5. [Extra Skills](https://github.com/rajeshrideshmukh/missingskill-learning/blob/master/extra-skills/extra-skills.md "Go to Extra skills documentation")
+   ```
+      | HTML
+      | CSS
+      | Bootstrap
+   ```
 ---
 
 [⬆️ back on top](#)
