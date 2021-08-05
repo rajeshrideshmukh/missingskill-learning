@@ -17,7 +17,7 @@ Syntax of a function is :
     fName(); //function call
 ```
 
-**In Es5, functions behaves like variables :**
+**In ES5, functions behaves like variables :**
 
 - acts as container
 - gets hoisted just like variables.

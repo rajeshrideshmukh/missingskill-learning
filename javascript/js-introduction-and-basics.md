@@ -221,6 +221,7 @@ console.log(typeof +b, +b); //Boolean false
 | array	| Stores more than one value or a group of values under a single variable. To access members of array use index with []. <br> ```var fruits = ["Apple", "Banana", "Mango", "Orange", "Papaya"];``` <br> ``` console.log(fruits[2]); // -> Mango```|
 
 <br>
+
 ## 📌 Copy by Value V/s Copy by Reference
 
 - All primitive values in JavaScript are copy by value. Copy by value means that every time you assign a value to a variable, a copy of that value is created.
