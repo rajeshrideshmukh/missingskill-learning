@@ -112,19 +112,19 @@
 
 In early stages when JavaScript was written, there were few errors/loopholes which was unnoticed. And solving those errors was impossible hence they were kept as it is in the code. They are called as Tech Debt and they are mentioned below:
 
-- '+' 
+- **'+' **
 
     Previously JavaScript was not meant to perform arithmetic operation. The purpose of '+' operator was for concatenation only. But when JavaScript started performing arithmetic operation it was too late to change. So '+' performs both Concatenation & Addition depending on it's operands.
 
     If both operands are number it will perform Addition, if atleast one of them is string then it will perform Concatenation.
 
-- '==='
+- **'==='**
 
     Previously, '==' operator was used for equality check. However, '==' only checked the values of both operands and not their datatype. It means "100" == 100 will return true.(Eventhough left operand is string)
 
     To overcome this drawback, new operator '===' was added. It first checks datatype of varaiable and then value. In this case "100" === 100 will return false.
 
-- Null
+- **Null**
   
   While writting JavaScript, Bredan Eich forgot to add check on null value. Due to this the typeof operator prints 'object' as the datatype of null.
 ## 📌 this keyword
@@ -132,7 +132,7 @@ In early stages when JavaScript was written, there were few errors/loopholes whi
   this keyword can be confusing because this represent different values in diferent context.
   Below are some scenarios :
 
-  - this refers to global object
+  - **_this refers to global object_**
   
     If _this_ is used in global context, then it will always point to global object i.e. the window object in browser.
 
@@ -143,7 +143,7 @@ In early stages when JavaScript was written, there were few errors/loopholes whi
     printThis(); // in browser it returns window object
     ```
 
-- this in a method
+- **_this in a method_**
   
     ```javascript
     var first = "John";
@@ -161,7 +161,7 @@ In early stages when JavaScript was written, there were few errors/loopholes whi
     ```
     In this example, eventhough we have same variable names in global scope as well as inside the object, user is the object owner and _**this**_ will refer to the user object.
 
-- this in arrow function
+- **_this in arrow function_**
   In case of arrow functions, it doesn’t create a new value for this. this will refer to the same object which it is referring outside the function.
 
   <br>

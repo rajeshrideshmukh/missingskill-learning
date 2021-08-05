@@ -32,13 +32,13 @@ The name '**Linux**' comes from the name of it's developer i.e. Linus Torvalds.
 
 # 📌 Why to Use ?
 
-## 🔵 Open source
+##  Open source
 
     Linux is freely available to anyone.
     It is open source, that means the source code of Linux is available and accessible for use, modification and even distribution
     with it's original rights by anyone and for any purpose.
 
-## 🔵 Linux Distribution
+##  Linux Distribution
 
     A Linux distribution, also called as Linux distro, is an operating system compiled from components developed by various
     open source projects and programmers.

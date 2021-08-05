@@ -1,4 +1,4 @@
-> _This is a documentation created by myself based on the #missingskill grind. All the videos were provided by [Samal Gorai](https://twitter.com/samalgorai?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor "Twitter Profile") . Following are the topics that were covered in the grind & are documented in this repository._
+> _This is a documentation created by myself based on the #missingskill grind. I have covered topics like Linux, Git, Basic Building Block of Web Application, JavaScript in detail. All the videos were provided by [Samal Gorai](https://twitter.com/samalgorai?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor "Twitter Profile") . Following are the list of topics that were covered in the grind & are documented in this repository._
 
 # 📌 **Table of Contents**
 
@@ -43,17 +43,22 @@
    ```
    | Introduction
    | Why to Use?
-   | Tech Debt
-   | JavaScript Concepts
+   | JavaScript Basic Concepts
      - Operators
-     - Datatypes
-     - Hoisting
      - Variables
-     - Scope
+     - Datatypes
      - Copy by Value V/s Copy by Reference
+   | JavaScript Advance Concepts
+     - Scope
+     - Hoisting
+     - Tech Debt
      - this keyword
+     - Closure
+     - Array
+     - Object
+     - String
+     - Built-in Constructors
    | JavaScript Functions
-   | Arrays, Object & String methods
    | ES6
    ```
 5. Extra Skills

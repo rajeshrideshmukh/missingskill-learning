@@ -20,14 +20,14 @@ So, Git is used for tracking the changes that we make in our code, to revert bac
 
 > _(Compare the scenario before & after Git was developed )_
 
-## 🔵 Before Git
+##  Before Git
 
-- There was no commumnication between developers.
+- There was no proper commumnication involved between developers.
 - All the code written by developers needed to be submitted to the server.
 - It was not possible to track all the changes that other developers made and if in any condition they could not revert back to previous versions.
 - Developers that are working in parallel can result in conflicts.
 
-## 🔵 After Git
+##  After Git
 
 - Developers can regularly commumincate with each other and track all the changes made by them.
 - They can revert back to previous versions. And can also store a copy of their code in the local system.
@@ -53,7 +53,8 @@ In simple terms, git repository is a folder/container to store all the project f
 All these files are present in .git/ (hidden folder)
 
         - Local repository : This is present in our local system and is used to work offline.
-        - Remote repository : This refers to a server repository (Example - GitHub). It can be used by all the team members to track and make the changes in the code.
+        - Remote repository : This refers to a server repository (Example - GitHub). 
+                            It can be used by all the team members to track and make the changes in the code.
 
 ```
 
@@ -125,11 +126,11 @@ other is trying to push it's modified file to remote repository which would resu
 
 ## Some of the commands Performed:
 
-- git status (Before committing)
+- git status (Before committing check the status)
 
     <img src="../resources/git-output/git-status.png" width="400" height="100" />
 
-- git add & git status
+- git add & git status (git add . to add all code into staging area and then check the status again)
 
     <img src="../resources/git-output/git-add.png" width="400" height="200" />
 
@@ -137,11 +138,11 @@ other is trying to push it's modified file to remote repository which would resu
 
     <img src="../resources/git-output/git-commit.png" width="400" height="100" />
 
-- git push
+- git push (push the code into the remote repository)
 
     <img src="../resources/git-output/git-push.png" width="450" height="170" />
 
-- git branch & switch branch
+- git branch & switch branch (create a new branch and then switch to the new branch)
 
     <img src="../resources/git-output/git-branch.png" width="500" height="180" />
 
@@ -151,7 +152,7 @@ other is trying to push it's modified file to remote repository which would resu
 
     <img src="../resources/git-output/git-checkout.png" width="500" height="180" />
 
-- git clone -
+- git clone (clone a folder from your remote repository to local repository)
 
     <img src="../resources/git-output/git-clone2.png" width="500" height="250" />
     <img src="../resources/git-output/git-clone3.png" width="500" height="250" />

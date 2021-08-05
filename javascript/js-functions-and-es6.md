@@ -17,7 +17,7 @@ Syntax of a function is :
     fName(); //function call
 ```
 
-In Es5, functions behaves like variables :
+**In Es5, functions behaves like variables :**
 
 - acts as container
 - gets hoisted just like variables.
@@ -40,7 +40,8 @@ function function_name(){
 [⬆️ back on top](#)
 
 ## **Function can be declared in two ways** :
-- Function declaration
+
+- **Function declaration**
   
   This syntax uses function keyword. In this type function declaration can be hoisted.
 
@@ -53,7 +54,7 @@ function function_name(){
     var result = Sum(5, 5);
 
   ```
-- Function assignment
+- **Function assignment**
   
   In this type we define a function and then assign it to a variable. Here, function definition is not hoisted only the variable declaration get hoisted (only in case of var).
 

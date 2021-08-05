@@ -202,7 +202,7 @@ The set of common methods for HTTP is defined below
   - BSD
   - Mozilla
 
-  > ❗ _Oracle filed a lawsuit against Google for stealing 11,330 lines of their Java code for creating Android and Google paid a penalty of $9 Billion_
+  > ❗ _Oracle filed a lawsuit against Google for stealing 11,330 lines of their Java code in Android and Google paid a penalty of $9 Billion_
 
 &nbsp;
 

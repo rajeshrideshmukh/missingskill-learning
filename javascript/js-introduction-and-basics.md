@@ -131,7 +131,7 @@ JavaScript code does not needs to be compiled, it is interpreted at run time, ma
 
 Variables are considered as a container to hold some values. 
 
-In JavaScript, variables are loosely coupled. It means while we declare a variable we dont need to specify it's type. 
+In JavaScript, variables are **_dynamically typed_**. It means while we declare a variable we dont need to specify it's type. 
 
 A JavaScript variable can be assigned any type of value and depending on the value the type is assigned at run time.
 
@@ -213,8 +213,6 @@ let b = {};
 console.log(typeof +b, +b); //Boolean false
 ```
 
-<br>
-
 ## Non-primitive types : 
  
 |   Datatype|	Description	|
@@ -222,9 +220,10 @@ console.log(typeof +b, +b); //Boolean false
 | object	| Represents collection of primitive and non-primitive values. <br> Stored in key value pairs. To access the value we should use ./[] <br> ``` var person = { name : "Alex" , age : 23}; ``` <br> ``` console.log(person.age); // -> 23 ``` |
 | array	| Stores more than one value or a group of values under a single variable. To access members of array use index with []. <br> ```var fruits = ["Apple", "Banana", "Mango", "Orange", "Papaya"];``` <br> ``` console.log(fruits[2]); // -> Mango```|
 
-## 📌 Pass by Value V/s Pass by Reference
+<br>
+## 📌 Copy by Value V/s Copy by Reference
 
-- All primitive values in JavaScript are passed by value. Passing by value means that every time you assign a value to a variable, a copy of that value is created.
+- All primitive values in JavaScript are copy by value. Copy by value means that every time you assign a value to a variable, a copy of that value is created.
 
     ```javascript
     let a = 1;
@@ -240,7 +239,7 @@ console.log(typeof +b, +b); //Boolean false
     >_Here a & b are independent of each other and therefore after updating b's value, it did not affect value of a._
 
 
-- And all non-primitive types like plain objects, array, functions are pass by references. Whenever you create non-primitive variable and assign a value to it, that variable will not store the value directly instead the value will be stored in a memory location, and this variable will pont to that memory location.
+- And all non-primitive types like plain objects, array, functions are copy by references. Whenever you create non-primitive variable and assign a value to it, that variable will not store the value directly instead the value will be stored in a memory location, and this variable will pont to that memory location.
 
     If you modify the object, then all variables that reference that object are going to see the change.
 
