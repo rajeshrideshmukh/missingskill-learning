@@ -78,7 +78,7 @@ A shell is basically a program that receives commands from the user and gives it
     **ls command with flags** :
 
     - _ls -a_ : To show the hidden files
-    - _ls -l_ : To show the list in more detail like access permission, size, ownwer, etc.
+    - _ls -l_ : To show the list in more detail like access permission, size, owner, etc.
     - _ls -h_ : To show file size in human readable format.
     - _ls -t_ : To sort the list in ascending order of the modification time.
     - _ls -r_ : To show the list in reverse order.
@@ -261,7 +261,7 @@ A shell is basically a program that receives commands from the user and gives it
 
 &nbsp;
 
-18. **top** -> To display a list of all the running processes along with their CPU uages.
+18. **top** -> To display a list of all the running processes along with their CPU usages.
 
 19. **more/less** ->
 

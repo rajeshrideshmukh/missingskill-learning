@@ -61,7 +61,7 @@ All these files are present in .git/ (hidden folder)
 🔸 Branch
 
 ```
-Branch is like a pointer that will always point to the last commit that is made in out repository.
+Branch is like a pointer that will always point to the last commit that is made in repository.
 
 By default git commits in master branch.
 
@@ -86,8 +86,7 @@ Commit is a process of adding the code from staging area to local repository.
 ```
 Conflict occurs when git is not able to resolve the differences in the code between two commits.
 
-Example - When two developers are making changes in same file and after one developer has push the file in remote repository,
-other is trying to push it's modified file to remote repository which would result in conflict.
+Example - When two developers are making changes in same file and then trying to merge that file will result in conflit.
 ```
 
 &nbsp;
@@ -106,7 +105,7 @@ other is trying to push it's modified file to remote repository which would resu
 | git add      | To add files in staging area                                                                      |
 | git commit   | To save the changes in local repository                                                           |
 | git branch   | To show the branch on which local repository is present                                           |
-| git checkout | To switch between different branches, reciver deleted file and to revert back to previous version |
+| git checkout | To switch between different branches, recover deleted file and to revert back to previous version |
 | git merge    | To combine the changes from one branch to another branch                                          |
 | git log      | To show the order of the commit history for a repository                                          |
 

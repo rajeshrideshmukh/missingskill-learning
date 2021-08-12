@@ -34,7 +34,7 @@ JavaScript code does not needs to be compiled, it is interpreted at run time, ma
     |+	|Performs additon when both operands and number |
     |+	|Performs concatenation when alteast one of the operand is string|
     |-	|Substraction	|
-    |*	|Multiplaction|
+    |*	|Multiplication|
     |/	|Division	|
     |%	|Modulus operator returns remainder|
     |** | Exponentiation
@@ -51,7 +51,7 @@ JavaScript code does not needs to be compiled, it is interpreted at run time, ma
     |>	|Greater than|
     |<	|Less than	|
     |>=	|Greater than equal to|	
-    |<=	|Less than equal to	a |
+    |<=	|Less than equal to |
 
 <br>
 

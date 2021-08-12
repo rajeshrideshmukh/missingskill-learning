@@ -5,7 +5,7 @@
 # 📌 JavaScript Functions
 
 
-A function is a block of code designed to perform a particular task. The main purpose behind creating/using a function is that we can reuse the code as many times as we want, this helps use save time and also helps us make our programs compact.
+A function is a block of code designed to perform a particular task. The main purpose behind creating/using a function is that we can reuse the code as many times as we want, this helps us save time and also helps us make our programs compact.
 
 Syntax of a function is :
 
@@ -135,7 +135,7 @@ The purpose of this function is to make your code robust, configurable and flexi
 
 A function in which we do not modify or update any value of parameter is said to be a Pure function.
 
-If there is a need to change any value then create a local variable inside that function so that updating that variable won't affect the variable.
+If there is a need to change any value then create a local variable inside that function so that updating that variable won't affect the outer variable.
 
 ## **IIFE**
 

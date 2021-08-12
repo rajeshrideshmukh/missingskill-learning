@@ -112,7 +112,7 @@
 
 In early stages when JavaScript was written, there were few errors/loopholes which was unnoticed. And solving those errors was impossible hence they were kept as it is in the code. They are called as Tech Debt and they are mentioned below:
 
-- **'+' **
+- **'+'**
 
     Previously JavaScript was not meant to perform arithmetic operation. The purpose of '+' operator was for concatenation only. But when JavaScript started performing arithmetic operation it was too late to change. So '+' performs both Concatenation & Addition depending on it's operands.
 
@@ -231,7 +231,7 @@ concat() | Returns a new array object that contains two or more merged arrays
 toString() | Converts an array into string form
 shift() | Removes first element from an array and "shifts" all other elements to lower index
 unshift() | Adds a new element to an array at the start and "unshifts" other elements to higher index
-indexof() | Searches the array for an element and return its first index
+indexOf() | Searches the array for an element and return its first index
 isArray() | To test if the variable is an array
 push() | Adds a new element to an array
 pop() | Removes last element from an array
@@ -273,7 +273,7 @@ Objects can be created in following ways :
     ```
 2. Using object literal notation
    
-   This is mostly prefered than the Array constructor.
+   This is mostly prefered than the Object constructor.
 
    Syntax :
 
@@ -365,7 +365,7 @@ Array() | var fruits = new Array();
 RegExp() | var flag = new RegExp();
 Function() | var operation = new Function();
 Date() | var bdate = new Date();
-Math() () | Math.floor();
+Math() | Math.floor();
 
 <br>
 

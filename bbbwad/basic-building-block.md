@@ -208,7 +208,7 @@ The set of common methods for HTTP is defined below
 
 ## 📌 Database
 
-- Database is a collection data which is organized in such a way that data could be accessed and modified easily.
+- Database is a collection of data which is organized in such a way that data could be accessed and modified easily.
 
   Various types of databases are used for storing data:
 
